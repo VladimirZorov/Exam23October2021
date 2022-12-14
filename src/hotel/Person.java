@@ -49,6 +49,6 @@ public class Person {
     @Override
     public String toString() {
         return String.format
-                ("Person {name}: {id}, Age: {age}, Hometown: {hometown}");
+                ("Person %s: %d, Age: %d, Hometown: %s", name, id, age, hometown);
     }
 }
